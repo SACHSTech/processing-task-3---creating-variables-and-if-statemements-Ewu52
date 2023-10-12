@@ -52,5 +52,15 @@ public class Sketch extends PApplet {
     fill(20, 23, 20);
     ellipse(flowerX, flowerY, flowerDiameter, flowerDiameter);
 
+    // If statements
+    if(flowerX > 100 && flowerX <300){
+      background(255, 132, 0);
+    if(flowerX < 100 || flowerDiameter > 300);{
+    background(123,31, 184);  
+    }
+      
+      
+    }
+
   }
 }
